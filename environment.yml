@@ -1,0 +1,11 @@
+name: R-basedML
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - tidyverse
+  - caret
+  - ellipse
+  - kernlab
+  - randomForest
