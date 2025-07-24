@@ -3,36 +3,34 @@ The purpose of this repository is to document my walkthrough of machine learning
  
 # Assignment 5 – R-based ML
  
-This repository contains a Jupyter notebook that walks through statistical analysis in R
+This repository contains a Jupyter notebook that walks through machine learning in R
  
 ## Source
  
 Tutorial followed:
-[https://scipy-lectures.org/packages/statistics/index.html](https://machinelearningmastery.com/machine-learning-in-r-step-by-step/)
+(https://machinelearningmastery.com/machine-learning-in-r-step-by-step/)
  
 ## Getting Started
  
 ### Create the Conda Environment
  
 ```
-conda env create -f assignment_env.yml
-conda activate stats-env
+conda env create -f env.yml
+conda activate -env
 ```
  
 ### Packages included
-- Python 3
-- Scipy
-- Pandas
-- Numpy
-- OS
-- Seaborn
-- MatPlotLib
+- tidyverse
+- caret
+- ellipse
+- kernlab
+- randomForest
  
 ## Calculations performed
-Performed basic statistical analysis including group means, standard deviations, and cross-tabulations. Applied hypothesis testing (t-tests, Mann-Whitney U, Wilcoxon, chi-squared tests), computed correlations, and built linear regression models using statsmodels to explore relationships while adjusting for covariates.
+Performed basic statistical analysis.
  
 ## Notes
-- Each code block from the SciPy tutorial should be placed in its own notebook cell.
+- Each code block from the tutorial should be placed in its own notebook cell.
 - Include **detailed comments** for every code example.
 - Use **markdown cells** to structure and explain each section.
 - If additional Python packages are required, install them and update the `environment.yml` or `requirements.txt` file accordingly.
